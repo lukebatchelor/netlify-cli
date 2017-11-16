@@ -1,12 +1,12 @@
 {
-  "name": "netlify-cli",
-  "version": "1.2.2",
+  "name": "@lbatchelor/netlify-cli",
+  "version": "1.2.2-patched",
   "description": "Netlify builds, deploys and hosts your front-end straight from Github.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "netlify": "./bin/cli.js"
+    "netlify-patched": "./bin/cli.js"
   },
   "keywords": [
     "netlify",
@@ -25,12 +25,12 @@
   },
   "homepage": "https://github.com/netlify/netlify-cli",
   "dependencies": {
+    "@lbatchelor/netlify": "^1.2.0-patched",
     "chalk": "^0.5.1",
     "commander": "^2.9.0",
     "github": "^0.2.4",
     "home-dir": "^0.2.0",
     "inquirer": "^0.11.0",
-    "netlify": "^1.2.0",
     "open": "0.0.5",
     "prompt": "^0.2.14",
     "update-notifier": "^0.6.0",
