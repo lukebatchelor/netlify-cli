@@ -1,7 +1,8 @@
 {
   "name": "@lbatchelor/netlify-cli",
-  "version": "1.2.2",
+  "version": "1.2.2-patched.6",
   "description": "Netlify builds, deploys and hosts your front-end straight from Github.",
+  "description2": "This fork exists to pull in my pactched netlify build",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,7 +26,7 @@
   },
   "homepage": "https://github.com/netlify/netlify-cli",
   "dependencies": {
-    "@lbatchelor/netlify": "^1.2.0-patched",
+    "@lbatchelor/netlify": "1.2.0-patched.6",
     "chalk": "^0.5.1",
     "commander": "^2.9.0",
     "github": "^0.2.4",

@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@lbatchelor/netlify@^1.2.0-patched":
-  version "1.2.0-patched"
-  resolved "https://registry.yarnpkg.com/@lbatchelor/netlify/-/netlify-1.2.0-patched.tgz#508418dcc266410d7b77a2f976fbff27968b0537"
+"@lbatchelor/netlify@1.2.0-patched.5":
+  version "1.2.0-patched.5"
+  resolved "https://registry.yarnpkg.com/@lbatchelor/netlify/-/netlify-1.2.0-patched.5.tgz#f80dd369cd8a92a8130316ca2923a3d4e0217593"
   dependencies:
     base64-js ">=0.0.4"
     glob ">=3.2.6"
