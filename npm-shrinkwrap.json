@@ -1,6 +1,6 @@
 {
   "name": "netlify-cli",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "dependencies": {
     "ansi-escapes": {
       "version": "1.4.0",
