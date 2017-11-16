@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@lbatchelor/netlify@^1.2.0-patched":
+  version "1.2.0-patched"
+  resolved "https://registry.yarnpkg.com/@lbatchelor/netlify/-/netlify-1.2.0-patched.tgz#508418dcc266410d7b77a2f976fbff27968b0537"
+  dependencies:
+    base64-js ">=0.0.4"
+    glob ">=3.2.6"
+    graceful-fs "^4.1.2"
+    semaphore "^1.0.5"
+    when "^3.7.5"
+
 ansi-escapes@^1.1.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"
@@ -226,12 +236,6 @@ got@^5.0.0:
     unzip-response "^1.0.2"
     url-parse-lax "^1.0.0"
 
-graceful-fs@^3.0.4:
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-3.0.11.tgz#7613c778a1afea62f25c630a086d7f3acbbdd818"
-  dependencies:
-    natives "^1.1.0"
-
 graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
@@ -387,23 +391,9 @@ mute-stream@~0.0.4:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
-natives@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/natives/-/natives-1.1.0.tgz#e9ff841418a6b2ec7a495e939984f78f163e6e31"
-
 ncp@0.4.x:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/ncp/-/ncp-0.4.2.tgz#abcc6cbd3ec2ed2a729ff6e7c1fa8f01784a8574"
-
-netlify@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-1.2.0.tgz#ebf89b94b01b478d539630174decb496c2bbe315"
-  dependencies:
-    base64-js ">=0.0.4"
-    glob ">=3.2.6"
-    graceful-fs "^3.0.4"
-    semaphore "^1.0.5"
-    when "^3.7.5"
 
 node-status-codes@^1.0.0:
   version "1.0.0"
