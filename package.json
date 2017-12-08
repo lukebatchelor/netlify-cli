@@ -1,6 +1,6 @@
 {
   "name": "@lbatchelor/netlify-cli",
-  "version": "1.2.2-patched.6",
+  "version": "1.2.2-patched.7",
   "description": "Netlify builds, deploys and hosts your front-end straight from Github.",
   "description2": "This fork exists to pull in my pactched netlify build",
   "scripts": {
