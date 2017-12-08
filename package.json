@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/netlify/netlify-cli",
   "dependencies": {
-    "@lbatchelor/netlify": "1.2.0-patched.6",
+    "@lbatchelor/netlify": "1.2.0-patched.7",
     "chalk": "^0.5.1",
     "commander": "^2.9.0",
     "github": "^0.2.4",
