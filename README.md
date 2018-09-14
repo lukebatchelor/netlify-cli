@@ -2,6 +2,23 @@
 
 The Netlify CLI tools lets you create, deploy, and delete new sites straight from your terminal.
 
+---
+
+# Why does this fork exist?
+
+This fork exists due to errors we are getting when using the normal client. Some times the permalink
+we get back doesn't actually work. This fork simply fetches that url a second time to ensure that
+we are logging the correct one.
+
+It also adds the ability to set a `WRITE_PERMALINK_TO_FILE` environment variable to write the url
+to a file as well.
+
+```
+WRITE_PERMALINK_TO_FILE="permalink.txt" yarn netlify-patched -t $NETLIFY_TOKEN deploy --site-id $NETLIFY_SITE_ID_STAGING -p dist.zip
+```
+
+---
+
 ## Installation
 
 To install the CLI tools:
